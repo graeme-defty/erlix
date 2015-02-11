@@ -7,15 +7,15 @@ Erlix
 AS A START point in learning Elixir I decided to try to convert an existing
 project from erlang to elixir (jaderl -> jadelix).  I quickly realised that there was
 a huge amount of grunt editing needed.
-After manunally completing 3 one-line functions and their tests I was already going crazy
+After manually completing 3 one-line functions and their tests I was already going crazy
 from the grinding repetitiveness (is that a word? Repetetivity?) of it all.
 
 I also realised that all this horrible drudgery was going to take an age.
 
 This is what computers are good at!
 
-I decided that I needed to take a step back and that my first work in Elixir
-should be to create a simple program to do some of more obvious and repetetive tasks
+I decided that I needed to take a step back and that my first work in elixir
+should be to create a simple program to do some of more obvious and repetitive tasks
 before I started to look at changing the code by hand.
 
 ERLIX IS that program. It knows virtually nothing about the structure of Erlang programs,
@@ -52,6 +52,6 @@ of erlang programming, which may be atypical. Caveat emptor!
 
 There are a hundred different ways this could be improved, and I would be happy to incorporate any changes/improvements I get, but it has served its purpose for me and I do not plan to work on it further myself.
 
-The correct way to do this job would probably be to use the erlang compile functions to build an erlang AST and then walk that, spitting out elixr as you go. I didnt have clear enough knowledge of the erlang AST and find the functions supporting it (parse etc.) complex and confusing, and didnt have time to learn all I needed to go that way, so this is what I used.
+The correct way to do this job would probably be to use the erlang compile functions (erl_scan, erl_parse, etc) to build an erlang AST and then walk that, spitting out elixr as you go. I didnt have clear enough knowledge of the erlang AST and find the functions supporting it complex and confusing, and didnt have time to learn all I needed to go that way, so Erlix is what I used.
 
 In summary, this may help you, it may not. 
